@@ -9,7 +9,12 @@ function App() {
     if (count >= 20) {
      return  
     } else{
-      setCount(count + 1); 
+      // setCount(count + 1); 
+      // setCount(count + 1); 
+      // setCount(count + 1); 
+      setCount(prevCounter => prevCounter + 1 )
+      // setCount(prevCounter => prevCounter + 1 )
+      // setCount(prevCounter => prevCounter + 1 ) // becouse of usestate 
     }
   }
 // Remove Function
